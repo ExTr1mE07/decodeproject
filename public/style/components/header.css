@@ -1,0 +1,44 @@
+header{
+    padding: 25px 8%;
+    display: flex;
+}
+
+.header_text{
+    color: #00A2DC;
+    font-size: 45px;
+    font-weight: 600;
+    width: 35%;
+}
+
+.header_search{
+    display: flex;
+    width: 45%;
+}
+
+.header_search input{
+    width: 350px;
+    padding-left: 20px;
+}
+
+.header_search a{
+    padding: 15px 3%;
+    background-color: #00A2DC;
+    color: white;
+}  
+
+.header_button{
+    display: flex;
+}
+
+.header_button1{
+    padding: 15px 20px;
+    background-color: #00A2DC;
+    color: white;
+    margin-right: 20px;
+}
+
+.header_button2{
+    padding: 15px 40px;
+    background-color: #00A2DC;
+    color: white;
+}
