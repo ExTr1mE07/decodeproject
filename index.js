@@ -12,7 +12,10 @@ app.get ('/', (req, res) => {
     res.end('Hello')
 })
 app.get ('/header', (req, res) => {
-    res.render('header.ejs')
+    res.render('partials/header.ejs')
+})
+app.get ('/blog', (req, res) => {
+    res.render('blog.ejs')
 })
 
 

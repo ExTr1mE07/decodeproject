@@ -1,6 +1,10 @@
 header{
-    padding: 25px 8%;
+    padding: 25px 7%;
     display: flex;
+    position: fixed;
+    background-color: white;
+    width: 90%;
+
 }
 
 .header_text{
@@ -24,6 +28,7 @@ header{
     padding: 15px 3%;
     background-color: #00A2DC;
     color: white;
+    border-radius: 2px;
 }  
 
 .header_button{
@@ -35,10 +40,12 @@ header{
     background-color: #00A2DC;
     color: white;
     margin-right: 20px;
+    border-radius: 2px;
 }
 
 .header_button2{
     padding: 15px 40px;
     background-color: #00A2DC;
     color: white;
+    border-radius: 2px;
 }
