@@ -18,6 +18,17 @@ app.get ('/blog', (req, res) => {
     res.render('blog.ejs')
 })
 
+app.get ('/myBlog', (req, res) => {
+    res.render('myBlog.ejs')
+})
+
+app.get ('/commentBlog', (req, res) => {
+    res.render('commentBlog.ejs')
+})
+
+app.get ('/myCommentBlog', (req, res) => {
+    res.render('myCommentBlog.ejs')
+})
 
 
 // const PORT = 3000;
