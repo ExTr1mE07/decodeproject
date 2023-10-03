@@ -1,0 +1,133 @@
+@media(max-width: 1100px){
+    .header_search input {
+        width: 200px;
+    }
+    /* .blog_container1_mini h2 {
+        font-size: 35px;
+    } */
+    .blog_container1_statistics{
+        display: block;
+        text-align: center;
+        padding: 10% 0px;
+        line-height: 30px;
+    }
+    .header_container img{
+        padding-left: 10%;
+    }
+}
+
+
+@media(max-width: 800px){
+    .header_text {
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .blog {
+        padding: 110px 3%;
+        width: 100%;
+    }
+    .header_search input {
+        width: 130px;
+        height: 40px;
+    }
+    .header_button {
+        width: 30%;
+        height: 30px;
+    }
+    .header_button1 {
+        padding: 5% 5%;
+    }
+    .header_button2 {
+        padding: 5% 5%;
+    }
+    .header_search {
+        padding: 1% 1%;
+    }
+    .blog_container1_mini h2 {
+        font-size: 35px;
+    }
+    .blog_container1_mini p {
+        font-size: 20px;
+        padding-bottom: 10%;
+    }
+    .blog_container2{
+        width: 30%;
+        line-height: 35px;
+        height: 50%;
+    }
+    .blog_container2 h2 {
+        font-size: 35px;
+    }
+    .blog_container2 a {
+        font-size: 17px
+    }
+    .blog_line {
+        width: 85%;
+    }
+    .blog_container1_statistics {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+    .blog_container1_text h3 {
+        font-size: 30px;
+        padding-top: 10%;
+    }
+    .blog_container1_text p {
+        font-size: 20px;
+    }
+    .blog_container1{
+        padding: 20px 3%
+    }
+    .blog_container1_text h3 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 500px){
+    .header_text {
+        font-size: 23px;
+        padding-top: 10px;
+    }
+    .header_search input {
+        width: 80px;
+        height: 27px;
+    }
+    .header_search a {
+        padding: 10px 0%;
+        margin-bottom: 5px;
+        font-size: 85%;
+    }
+    .header_button{
+        display: block;
+        line-height: 30px;
+        width: 20%;
+        font-size: 85%;
+    }
+    .blog_container2 h2 {
+        font-size: 20px;
+    }
+    .blog_container1_mini h2 {
+        font-size: 23px;
+        padding-bottom: 10%;
+    }
+    .blog_container2 a {
+        font-size: 15px
+    }
+    .blog_container1_mini p {
+        font-size: 15px;
+        padding-bottom: 10%;
+    }
+    .blog_container1_text h3 {
+        font-size: 23px;
+        padding-top: 10%;
+    }
+    .blog_container1_text p {
+        font-size: 15px;
+    }
+    .blog_container1_statistics {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

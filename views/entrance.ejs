@@ -8,15 +8,14 @@
     <script src="https://kit.fontawesome.com/989563f7e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header_container">
-        <div class="header_text">
-            Decode Blog
+    <%- include('partials/header.ejs')  %>
+    <div class="entrance-container">
+        <div class="entrance-item">
+            <h2>Вход</h2>
+            <input type="text" placeholder="Введите email">
+            <input type="text" placeholder="Введите пароль">
+            <a href="" class="button">Войти</a>
         </div>
-        <div class="header_search">
-            <input type="text" placeholder="Поиск по блогам">
-            <a><i class="fa-solid fa-magnifying-glass"></i>найти</a>  
-        </div>
-        <img src="/images/avatar.png" alt="">
-    </header> 
+    </div>
 </body>
 </html>

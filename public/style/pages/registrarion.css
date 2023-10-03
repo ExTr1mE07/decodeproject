@@ -1,0 +1,13 @@
+.registration-container{
+    background-color: #F8F9FA;
+    width: 100%;
+    height: 940px;
+}
+
+.registration-container a{
+    padding: 13px 4%;
+}
+
+.registration-container input{
+    width: 243px;
+}

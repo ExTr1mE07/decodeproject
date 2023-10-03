@@ -30,6 +30,17 @@ app.get ('/myCommentBlog', (req, res) => {
     res.render('myCommentBlog.ejs')
 })
 
+app.get ('/newBlog', (req, res) => {
+    res.render('newBlog.ejs')
+})
+
+app.get ('/entrance', (req, res) => {
+    res.render('entrance.ejs')
+})
+
+app.get ('/registration', (req, res) => {
+    res.render('registration.ejs')
+})
 
 // const PORT = 3000;
 // app.listen(PORT, () => {
