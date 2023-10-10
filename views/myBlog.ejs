@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style/vendor/all.css">
     <script src="https://kit.fontawesome.com/989563f7e9.js" crossorigin="anonymous"></script>
+    <script defer src="/pages/burger.js"></script>
 </head>
 <body>
     <%- include('partials/header2.ejs')  %>
@@ -19,11 +20,17 @@
             <div class="blog_container1_text">
                 <div class="myblog_container1_text">
                     <h3>Обзор Report Manager от Webix</h3>
-                    <a href="">Еще</a>
+                    <div class="myblog_burger">
+                        <a class="myblog_burger_more" id="myblog_burger" href=""><i class="fa-solid fa-ellipsis-vertical"></i>Еще</a>
+                        <div class="myblog_burger_menu">
+                            <a>Редоктировать</a>
+                            <a class="myblog_burger_menu2">Удалить</a>
+                        </div>
+                    </div>
                 </div>
                 <p>Осень 2020 года стала плодотворным временем для специалистов Webix.<p>
                 <p>Команда Webix выпустила восьмую версию библиотеки пользовательского интерфейса Webix с <br> двумя новыми комплексными виджетами. Первый - зто Scheduler, о котором мы подробно <br> говорили ранее. Второй виджет - это Gantt chart в JavaScript. Подробную информацию об этом <br> виджете Вы можете найти в статье.</p>     
-                <p>Ноябрь продолжает тенденцию, и мы спешим поделиться с Вами новым комплексным виджетом <br> Report Manager. Давайте рассмотрим его подробнее</p>
+                <p>Ноябрь продолает тенденцию, и мы спешим поделиться с Вами новым комплексным виджетом <br> Report Manager. Давайте рассмотрим его подробнее</p>
             </div>
             <div class="blog_container1_statistics">
                 <p><i class="fa-regular fa-calendar-days"></i>26.06.2020</p>

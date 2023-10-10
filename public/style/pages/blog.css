@@ -71,6 +71,11 @@
     color: #007BFF;
 }
 
+.blog_container2 a:hover{
+    border-bottom: 2px solid #007BFF;
+    transition: .2s;
+}
+
 .blog_line {
     border: 1px solid #E7E7E7;
     width: 270px;

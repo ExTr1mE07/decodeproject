@@ -51,7 +51,39 @@
 }
 
 .myblog_container1_text a {
-    padding-top: 15px;
     color: black;
-    font-size: 18px;
 }
+
+.myblog_burger{
+
+}
+
+.myblog_burger_menu a{
+    display: block;
+}
+
+.myblog_burger_menu{
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    -webkit-box-shadow: -1px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -1px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -1px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    line-height: 30px;
+    padding: 5px 10px;
+    padding-right: 55px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.myblog_burger_more {
+    padding-left: 130px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.myblog_burger_menu2{
+    color: red;
+}
+
